@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>DialogAddCar2</class>
+ <widget class="QDialog" name="DialogAddCar2">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>815</width>
+    <height>400</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QPushButton" name="APPLY">
+   <property name="geometry">
+    <rect>
+     <x>330</x>
+     <y>340</y>
+     <width>75</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>APPLY</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>348</width>
+     <height>304</height>
+    </rect>
+   </property>
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="10" column="4">
+     <widget class="QLineEdit" name="Height"/>
+    </item>
+    <item row="11" column="3">
+     <widget class="QLabel" name="label_20">
+      <property name="text">
+       <string>Clearance</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="4">
+     <widget class="QLineEdit" name="Country"/>
+    </item>
+    <item row="3" column="3">
+     <widget class="QLabel" name="label_14">
+      <property name="text">
+       <string>ModelName</string>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="3">
+     <widget class="QLabel" name="label_15">
+      <property name="text">
+       <string>ManufacturerId</string>
+      </property>
+     </widget>
+    </item>
+    <item row="13" column="3">
+     <widget class="QLabel" name="label_22">
+      <property name="text">
+       <string>Photo</string>
+      </property>
+     </widget>
+    </item>
+    <item row="7" column="3">
+     <widget class="QLabel" name="label_17">
+      <property name="text">
+       <string>Lenght</string>
+      </property>
+     </widget>
+    </item>
+    <item row="6" column="4">
+     <widget class="QLineEdit" name="Mass"/>
+    </item>
+    <item row="7" column="4">
+     <widget class="QLineEdit" name="Lenght"/>
+    </item>
+    <item row="0" column="3">
+     <widget class="QLabel" name="label_12">
+      <property name="text">
+       <string>ManufacturerName</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="3">
+     <widget class="QLabel" name="label_13">
+      <property name="text">
+       <string>Country</string>
+      </property>
+     </widget>
+    </item>
+    <item row="12" column="3">
+     <widget class="QLabel" name="label_21">
+      <property name="text">
+       <string>BodyType</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="4">
+     <widget class="QLineEdit" name="ManufacturerName"/>
+    </item>
+    <item row="4" column="4">
+     <widget class="QLineEdit" name="ManufacturerId"/>
+    </item>
+    <item row="11" column="4">
+     <widget class="QLineEdit" name="Clearance"/>
+    </item>
+    <item row="8" column="3">
+     <widget class="QLabel" name="label_18">
+      <property name="text">
+       <string>Width</string>
+      </property>
+     </widget>
+    </item>
+    <item row="6" column="3">
+     <widget class="QLabel" name="label_16">
+      <property name="text">
+       <string>Mass</string>
+      </property>
+     </widget>
+    </item>
+    <item row="8" column="4">
+     <widget class="QLineEdit" name="Width"/>
+    </item>
+    <item row="10" column="3">
+     <widget class="QLabel" name="label_19">
+      <property name="text">
+       <string>Height</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="4">
+     <widget class="QLineEdit" name="ModelName"/>
+    </item>
+    <item row="13" column="4">
+     <widget class="QLineEdit" name="Photo"/>
+    </item>
+    <item row="12" column="4">
+     <widget class="QLineEdit" name="BodyType"/>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>350</x>
+     <y>0</y>
+     <width>281</width>
+     <height>304</height>
+    </rect>
+   </property>
+   <layout class="QGridLayout" name="gridLayout_2">
+    <item row="3" column="0">
+     <widget class="QLabel" name="label_4">
+      <property name="text">
+       <string>ModelId</string>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="0">
+     <widget class="QLabel" name="label_5">
+      <property name="text">
+       <string>EquipmentId</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="0">
+     <widget class="QLabel" name="label_2">
+      <property name="text">
+       <string>Color</string>
+      </property>
+     </widget>
+    </item>
+    <item row="7" column="1">
+     <widget class="QLineEdit" name="WheelDrive"/>
+    </item>
+    <item row="6" column="0">
+     <widget class="QLabel" name="label_7">
+      <property name="text">
+       <string>EngineVolume</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="1">
+     <widget class="QLineEdit" name="ModelId"/>
+    </item>
+    <item row="5" column="1">
+     <widget class="QLineEdit" name="EngineName"/>
+    </item>
+    <item row="9" column="1">
+     <widget class="QLineEdit" name="HorsePower"/>
+    </item>
+    <item row="0" column="0">
+     <widget class="QLabel" name="label">
+      <property name="text">
+       <string>Id</string>
+      </property>
+     </widget>
+    </item>
+    <item row="10" column="0">
+     <widget class="QLabel" name="label_10">
+      <property name="text">
+       <string>MaxSpeed</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="1">
+     <widget class="QLineEdit" name="Color"/>
+    </item>
+    <item row="0" column="1">
+     <widget class="QLineEdit" name="Id"/>
+    </item>
+    <item row="9" column="0">
+     <widget class="QLabel" name="label_9">
+      <property name="text">
+       <string>HorsePower</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="0">
+     <widget class="QLabel" name="label_3">
+      <property name="text">
+       <string>Price</string>
+      </property>
+     </widget>
+    </item>
+    <item row="10" column="1">
+     <widget class="QLineEdit" name="MaxSpeed"/>
+    </item>
+    <item row="5" column="0">
+     <widget class="QLabel" name="label_6">
+      <property name="text">
+       <string>EngineName</string>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="1">
+     <widget class="QLineEdit" name="EquipmentId"/>
+    </item>
+    <item row="6" column="1">
+     <widget class="QLineEdit" name="EngineVolume"/>
+    </item>
+    <item row="7" column="0">
+     <widget class="QLabel" name="label_8">
+      <property name="text">
+       <string>WheelDrive</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="1">
+     <widget class="QLineEdit" name="Price"/>
+    </item>
+    <item row="8" column="0">
+     <widget class="QLabel" name="label_11">
+      <property name="text">
+       <string>TranssmisionType</string>
+      </property>
+     </widget>
+    </item>
+    <item row="8" column="1">
+     <widget class="QLineEdit" name="TranssmisionType"/>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>APPLY</sender>
+   <signal>clicked()</signal>
+   <receiver>DialogAddCar2</receiver>
+   <slot>exec()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>371</x>
+     <y>345</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>458</x>
+     <y>343</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>

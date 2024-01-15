@@ -1,0 +1,13 @@
+release/carform.o
+release/congratulationsdialog.o
+release/dialogaddcar2.o
+release/dialogpurchasecar.o
+release/logodialog.o
+release/mainwindow.o
+release/main.o
+release/moc_carform.o
+release/moc_congratulationsdialog.o
+release/moc_dialogaddcar2.o
+release/moc_dialogpurchasecar.o
+release/moc_logodialog.o
+release/moc_mainwindow.o

@@ -1,0 +1,13 @@
+debug/carform.o
+debug/congratulationsdialog.o
+debug/dialogaddcar2.o
+debug/dialogpurchasecar.o
+debug/logodialog.o
+debug/mainwindow.o
+debug/main.o
+debug/moc_carform.o
+debug/moc_congratulationsdialog.o
+debug/moc_dialogaddcar2.o
+debug/moc_dialogpurchasecar.o
+debug/moc_logodialog.o
+debug/moc_mainwindow.o
